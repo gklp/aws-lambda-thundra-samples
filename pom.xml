@@ -9,7 +9,6 @@
     <version>SNAPSHOT</version>
 
     <properties>
-        <thundra.version>2.6.13</thundra.version>
         <maven.shade.plugin.version>2.3</maven.shade.plugin.version>
     </properties>
 
@@ -53,12 +52,4 @@
             </plugins>
         </pluginManagement>
     </build>
-
-    <repositories>
-        <repository>
-            <id>thundra-releases</id>
-            <name>Thundra Releases</name>
-            <url>https://repo.thundra.io/content/repositories/thundra-releases</url>
-        </repository>
-    </repositories>
 </project>
